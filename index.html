@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NADJAR - Nasi Daun Jeruk Ayam Goreng Ketumbar</title>
+   <link rel="stylesheet" href="./style.css?v=2">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <a href="#" class="logo">NADJAR</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#produk">Produk</a></li>
+        <li><a href="#pasar">Target Market</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+        <li><a href="admin-login.html" class="admin-link">⚙️ Admin</a></li>
+      </ul>
+      <div class="mobile-menu" id="mobileMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="beranda">
+    <div class="hero-content">
+      <h1>NADJAR</h1>
+      <p>Nasi Daun Jeruk Ayam Goreng Ketumbar</p>
+      <p>Cita Rasa Autentik Indonesia dengan Perpaduan Aroma Daun Jeruk Segar dan Ayam Goreng Ketumbar yang Menggugah Selera</p>
+      <div class="cta-buttons">
+        <a href="#produk" class="btn btn-primary">🍽️ Lihat Menu</a>
+        <a href="#tentang" class="btn btn-secondary">📖 Pelajari Lebih Lanjut</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="tentang">
+    <div class="container">
+      <h2 class="section-title">Tentang NADJAR</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <div class="highlight-box">
+            <p>
+              NADJAR adalah inovasi kuliner mahasiswa yang menghadirkan cita rasa khas nusantara dalam kemasan modern dan praktis. Kami memadukan nasi wangi yang dimasak dengan daun jeruk segar dan ayam goreng berbumbu ketumbar untuk menciptakan pengalaman kuliner yang unik. 
+              Sebagai bagian dari Program Pembinaan Mahasiswa Wirausaha (P2MW) Politeknik Negeri Lampung, NADJAR tidak hanya sekadar usaha kuliner, tetapi juga wadah pembelajaran kewirausahaan yang nyata bagi mahasiswa.
+            </p>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="images/produk.jpg" alt="NADJAR - Nasi Daun Jeruk Ayam Goreng Ketumbar">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Section -->
+  <section class="product" id="produk">
+    <div class="container">
+      <h2 class="section-title">Produk Unggulan</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/nasi.jpg" alt="Nasi Daun Jeruk">
+          </div>
+          <h3>Nasi Daun Jeruk</h3>
+          <p>Nasi putih hangat yang dimasak dengan irisan daun jeruk segar, menghasilkan aroma wangi yang membangkitkan selera makan.</p>
+         <button class="btn-order" onclick="window.location.href='order.html?product=nasi-daun-jeruk'">Pesan Sekarang</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/ayam.jpg" alt="Ayam Goreng Ketumbar">
+          </div>
+          <h3>Ayam Goreng Ketumbar</h3>
+          <p>Potongan ayam segar yang digoreng dengan bumbu ketumbar alami tanpa MSG, renyah di luar namun empuk dan juicy di dalam.</p>
+        <button class="btn-order" onclick="window.location.href='order.html?product=ayam-ketumbar'">Pesan Sekarang</button>
+        </div>
+
+        <div class="product-card featured">
+          <div class="product-image">
+            <img src="images/paket-lengkap.jpg" alt="Paket Lengkap NADJAR">
+          </div>
+          <h3>Paket Lengkap NADJAR</h3>
+          <p>Kombinasi sempurna nasi daun jeruk aromatik dengan ayam goreng ketumbar yang renyah. Satu paket lengkap untuk kepuasan maksimal!</p>
+          <button class="btn-order" onclick="window.location.href='order.html?product=paket-lengkap'">Pesan Sekarang</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Target Market Section -->
+  <section class="market" id="pasar">
+    <div class="container">
+      <h2 class="section-title" style="color: #ffffff;">Target Konsumen</h2>
+      <div class="market-list">
+        <div class="market-item">
+          <div class="icon">🎓</div>
+          <h3>Mahasiswa</h3>
+          <p>Mahasiswa kampus yang membutuhkan makanan cepat saji, murah, mengenyangkan di sela jadwal kuliah padat.</p>
+        </div>
+        <div class="market-item">
+          <div class="icon">👨‍🏫</div>
+          <h3>Dosen & Staff</h3>
+          <p>Dosen dan staf kampus yang mencari variasi menu makan siang sehat namun tetap praktis.</p>
+        </div>
+        <div class="market-item">
+          <div class="icon">👥</div>
+          <h3>Pengunjung Event</h3>
+          <p>Peserta kegiatan kampus seperti seminar, bazar, lomba, atau expo UKM yang butuh konsumsi praktis.</p>
+        </div>
+        <div class="market-item">
+          <div class="icon">🏘️</div>
+          <h3>Komunitas Sekitar</h3>
+          <p>Warga lokal dan siswa sekolah sekitar yang sering beraktivitas di area kampus.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="kontak">
+    <div class="container">
+      <h2 class="section-title" style="color: #2E7D32;">Hubungi Kami</h2>
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="icon">📍</div>
+          <h3>Lokasi</h3>
+          <p>Politeknik Negeri Lampung<br>Jl. Soekarno Hatta No.10<br>Rajabasa Raya, Bandar Lampung</p>
+        </div>
+        <div class="contact-item">
+          <div class="icon">👥</div>
+          <h3>Tim Founder</h3>
+          <p>Damar Arif Ghifari (23753012)<br>M. Zidane Andrean (23753022)</p>
+        </div>
+        <div class="contact-item">
+          <div class="icon">📱</div>
+          <h3>Media Sosial</h3>
+          <div class="social-links">
+            <a href="https://wa.me/6281369149235" target="_blank" class="social-btn whatsapp">
+              <span>📞</span> WhatsApp
+            </a>
+            <a href="https://www.instagram.com/dmarghfi_16" target="_blank" class="social-btn instagram">
+              <span>📷</span> Instagram
+            </a>
+            <a href="https://www.tiktok.com/@dmarghfi" target="_blank" class="social-btn tiktok">
+              <span>🎵</span> TikTok
+            </a>
+            <a href="mailto:nadjarviral@gmail.com" class="social-btn email">
+              <span>✉️</span> Email
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 NADJAR - Program Pembinaan Mahasiswa Wirausaha (P2MW)</p>
+      <p>Politeknik Negeri Lampung</p>
+    </div>
+  </footer>
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+
+  <!-- JS -->
+  <script src="order-simple.js"></script>
+    <script src="./script.js?v=2" defer></script>
+    <script>// Tambahkan di bagian bawah order.html
+function goBack() {
+    // Cek apakah ada history
+    if (window.history.length > 1) {
+        window.history.back();
+    } else {
+        // Fallback ke index.html
+        window.location.href = 'index.html';
+    }
+}
+
+// Auto handling browser back button
+window.addEventListener('popstate', function(event) {
+    // Jika user pencet back button browser, arahkan ke index
+    if (document.referrer === '' || !document.referrer.includes(window.location.hostname)) {
+        window.location.href = 'index.html';
+    }
+});</script>
+<script>function orderProduct(productId, productName, price) {
+    // Simpan data produk di sessionStorage
+    sessionStorage.setItem('selectedProduct', JSON.stringify({
+        id: productId,
+        name: productName,
+        price: price
+    }));
+    
+    // Redirect ke order page
+    window.location.href = 'order.html';
+}</script>
+</body>
+</html>
