@@ -2,11 +2,11 @@
 const PRODUCT_PRICES = {
     'nasi-daun-jeruk': 7000,
     'ayam-ketumbar': 9000,
-    'paket-lengkap': 15000
+    'paket-lengkap': 13000
 };
 
 // Default price untuk paket lengkap
-let PRICE_PER_PORTION = 15000;
+let PRICE_PER_PORTION = 13000;
 
 // Cek produk yang dipilih saat halaman load
 document.addEventListener('DOMContentLoaded', function() {
